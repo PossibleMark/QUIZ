@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 40%;
+}
+
+
+nav ul{
+    display:flex;
+    flex-wrap: wrap;
+    background-color:lightblue;
+    padding: 8rem;
+    justify-content: space-around;
+}
+
+a li{
+    list-style-type: none;
+    text-decoration: none;
+    color:black;
+    font-size: 5.2rem;
+    font-family: verdana;
+   
+}
+
+a li:hover{
+    color:white;
+    background-color:crimson;
+   
+}
+
+.main{
+    display: flex;
+    min-width: 100%;
+    min-height: 95vh;
+    
+
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-image: url("Gold\ Exclusive\ Royal\ Luxury\ Hotel\ Logo.jpg");
+    background-size: cover;
+    background-position: center; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.login1{
+    color:white;
+    min-width:30vw;
+    min-height: 60vh;
+    align-content: center;
+    padding: 25rem;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+#email{
+    font-size: 6.3rem;
+    font-family: sans-serif;
+}
+
+#textarea{
+    width: 20vw;
+    height: 5vh;
+    font-size: 5rem;
+    padding: 2rem;
+}
+
+#submit{
+   min-width: 8vw;
+    height: 4vh;
+    font-size: 6rem;
+    font-family: Arial;
+    background-color: rgb(210, 30, 105);
+    color: white;
+    
+   
+}
+
+#submit:hover{
+    background-color: lightblue;
+    color: black;
+    
+
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#forgotpassword{
+    font-size: 7rem;
+    color:white
+}
+
+a{
+    text-decoration: none;
+    color:none;
+    
+}
+
+
+
+
+.main1{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 8rem;
+    padding: 12rem;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+
+.question{
+    font-size: 6rem;
+    padding: 20rem;
+    margin: 15rem;
+    background-color: lightblue;
+    color:black;
+    font-family: sans-serif;
+}
+
+#radio{
+    width: 3vw;
+    height: 2vh;
+   font-size: 4rem;
+   align-items: center;
+}
+
+
+
+#button{
+    width: 17vw;
+    height: 5vh;
+    font-size:7rem;
+    font-family: verdana;
+    border-radius: 25rem;
+    background-color:  yellowgreen;
+    
+}
+
+#button:hover{
+    background-color: yellow;
+    
+    
+}
+
+.mainbutt{
+    display: flex;
+    flex-direction: row;
+    padding: 12rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+
+.main3{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 100vw;
+    height: 90vh;
+    padding: 120rem;
+   
+    
+    
+}
+
+.sub-text{
+    display: flex;
+    font-size: 10rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 12rem;
+  
+    
+}
+
+#retuen a:hover{
+    background-color:chartreuse;
+
+}
+
+@media (max-width: 992px){
+    #textarea{
+        width: 40vw;
+        height: 5vh;
+        font-size: 5rem;
+        padding: 2rem;
+        font-size: 2rem;
+    }
+    
+    #submit{
+        min-width: 8vw;
+         height: 6vh;
+         font-size: 2.3rem;
+         font-family: Arial;
+         background-color: rgb(210, 30, 105);
+         color: white;
+    }
+
+    #forgotpassword{
+        font-size: 3rem;
+        color:white
+    }
+
+    a li{
+        list-style-type: none;
+        text-decoration: none;
+        color:black;
+        font-size: 1.5rem;
+        font-family: verdana;
+        padding: 1rem;
+       
+    }
+
+    #email{
+        font-size: 3rem;
+        font-family: sans-serif;
+    }
+
+    .question{
+        font-size: 2rem;
+        background-color: lightblue;
+        color:black;
+        font-family: sans-serif;
+    }
+
+    h1{
+        font-size: 4rem;
+    }
+
+    h2{
+        font-size: 3rem;
+    }
+
+    #button{
+        font-size: 2rem;
+       
+    }
+
+    .mainbutt{
+        padding:4rem;
+    }
+}
+
+
